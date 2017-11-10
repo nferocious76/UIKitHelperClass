@@ -1,0 +1,6 @@
+framework module UIKitHelperClass {
+  umbrella header "UIKitHelperClass-umbrella.h"
+
+  export *
+  module * { export * }
+}

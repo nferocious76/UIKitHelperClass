@@ -1,0 +1,16 @@
+PODS:
+  - UIKitHelperClass (0.1.0)
+
+DEPENDENCIES:
+  - UIKitHelperClass (from `../`)
+
+EXTERNAL SOURCES:
+  UIKitHelperClass:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UIKitHelperClass: c7bcbe80629aa4aa59508fed58902d3d6816c991
+
+PODFILE CHECKSUM: b6d016dcfcf9f04778c38fa77cb7514f55ea681b
+
+COCOAPODS: 1.2.1
