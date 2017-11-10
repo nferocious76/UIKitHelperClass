@@ -16,6 +16,8 @@
 		A28AED61F7015CD49AE9C0A904D046C8 /* Pods-UIKitHelperClass_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B91CC07F67F509B5285AFCA77693233C /* Pods-UIKitHelperClass_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD03A60146D3108517CBBE69265F3F21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E9BBC8F8A5358B24878D3F7BA12AF349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F53DD4851FB5C6CD00062D05 /* UITextField+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = F53DD4831FB5C6CD00062D05 /* UITextField+Extension.h */; };
+		F53DD4861FB5C6CD00062D05 /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F53DD4841FB5C6CD00062D05 /* UITextField+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		E5335408E6D39C1E1E84BD5F377F454E /* Pods-UIKitHelperClass_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKitHelperClass_Example-umbrella.h"; sourceTree = "<group>"; };
 		E8FB45E344D80AD6C9F36239AE7705AA /* Pods-UIKitHelperClass_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKitHelperClass_Example-resources.sh"; sourceTree = "<group>"; };
 		EB477AFCAF295FCDCDBB65157782EAAD /* Pods-UIKitHelperClass_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKitHelperClass_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F53DD4831FB5C6CD00062D05 /* UITextField+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extension.h"; sourceTree = "<group>"; };
+		F53DD4841FB5C6CD00062D05 /* UITextField+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extension.m"; sourceTree = "<group>"; };
 		FCBF32B53BED175EE63CBB20BD9E188F /* Pods-UIKitHelperClass_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitHelperClass_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +97,8 @@
 		01E7AAD065D9BC4938A420A9EC2CB275 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F53DD4831FB5C6CD00062D05 /* UITextField+Extension.h */,
+				F53DD4841FB5C6CD00062D05 /* UITextField+Extension.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -226,6 +232,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53DD4851FB5C6CD00062D05 /* UITextField+Extension.h in Headers */,
 				51ECC69B0F40691898796E506B680930 /* Pods-UIKitHelperClass_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00C2D88AF7BF01CC3571F6323485C4A1 /* Pods-UIKitHelperClass_Example-dummy.m in Sources */,
+				F53DD4861FB5C6CD00062D05 /* UITextField+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
