@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIKitHelperClass_Example' do
+  pod 'UIKitHelperClass', :path => '../'
+
+  target 'UIKitHelperClass_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
