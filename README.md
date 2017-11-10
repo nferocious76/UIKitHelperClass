@@ -1,4 +1,5 @@
 # UIKitHelperClass
+<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/nferocious76/UIKitHelperClass.svg?style=flat)](https://travis-ci.org/nferocious76/UIKitHelperClass)
 [![Version](https://img.shields.io/cocoapods/v/UIKitHelperClass.svg?style=flat)](http://cocoapods.org/pods/UIKitHelperClass)
@@ -27,3 +28,6 @@ nferocious76, nferocious76@gmail.com
 ## License
 
 UIKitHelperClass is available under the MIT license. See the LICENSE file for more info.
+=======
+Will containt UIKit helper functions 
+>>>>>>> a063370c49dfacd26f4567e2c414fa0068e235c9
